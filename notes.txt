@@ -1,0 +1,8 @@
+Goals
+- Memorizes everything?
+- Stock trading advice
+- Stores everything in memories?
+- Basic chat bot use 
+    - Can text with it
+    - Receive response
+    - Can change prompt rules
