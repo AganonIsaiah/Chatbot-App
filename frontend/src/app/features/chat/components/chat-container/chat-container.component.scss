@@ -1,0 +1,38 @@
+$primary-bg: #4A154B;  
+$secondary-bg: #3E0E40;  
+$accent-color: #ECB22E;  
+$text-color: #FFFFFF;  
+$border-color: #6E3B6E;  
+$input-bg: #5D2257;  
+$input-border: #7D4A7D; 
+
+
+.chat-container {
+    height: 100vh;
+
+    // Allows for the res and input to take the entire 100vh screen
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+.chat-res-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: $primary-bg;
+    border: 1px solid $border-color;
+    border-radius: 0.5rem;
+    max-height: 80vh;
+    color: $text-color;
+}
+
+.chat-input-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: $secondary-bg;
+    border: 1px solid $border-color;
+    border-radius: 0.5rem;
+    
+}

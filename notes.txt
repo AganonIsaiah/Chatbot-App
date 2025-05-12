@@ -6,3 +6,15 @@ Goals
     - Can text with it
     - Receive response
     - Can change prompt rules
+
+Concept
+    - Voice chat, with regular input/output
+    - Designed like MS teams, but just with AI in the middle
+        - Display in the middle, represents AI's icon, changes (i.e., to code generation)
+        - Simple prompts are to the side, act as transcripts between me and the AI
+
+Side bar:
+    - Main AI
+    - French learning AI
+    - Day Trading AI (paper trading -> to real with api)
+    - Songs?

@@ -19,7 +19,7 @@ public class ChatService {
     public String generate(String prompt) {
         String custom = """
                  Respond concise and correct.
-                 Respond with at most two sentences unless specified otherwise.
+                 Respond with at most three sentences unless specified otherwise.
                  Optimize each response so its not redundant and as short as possible (without losing valuable information).
                  Here is the prompt: %s""".formatted(prompt);
 

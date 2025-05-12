@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ResponseViewComponent } from "./features/response-view/response-view.component";
-import { ChatInputViewComponent } from "./features/chat-input-view/chat-input-view.component";
+import { ChatContainerComponent } from './features/chat/components/chat-container/chat-container.component';
+import { SidebarComponent } from './shared/layout/sidebar/sidebar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ResponseViewComponent, ChatInputViewComponent],
+  imports: [RouterOutlet, ChatContainerComponent, SidebarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

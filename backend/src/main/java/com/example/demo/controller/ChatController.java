@@ -20,7 +20,7 @@ public class ChatController {
     public Map<String, String> generateChat(@Valid @RequestBody ChatRequest chatRequest) {
         String response = chatService.generate(chatRequest.getPrompt());
         Map<String, String> responseBody = new HashMap<>();
-        responseBody.put("response", response);
+        responseBody.put("content", response);
         return responseBody;
     }
 }
